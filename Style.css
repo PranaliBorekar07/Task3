@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(45deg, black, grey);
+}
+
+.container {
+    border: 1px solid rgb(150 137 137);
+    padding: 20px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 4px 20px;
+}
+
+input {
+    width: 320px;
+    color: beige;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    text-align: right;
+    cursor: pointer;
+    font-size: 35px;
+    box-shadow: 0px 3px 15px black;
+}
+
+input::placeholder {
+    color: beige;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 20px;
+    box-shadow: -5px -1px 10px;
+}
+
+button:hover {
+    color: rgb(119, 119, 156);
+}
+
+.operators {
+    color: rgb(119, 119, 156);
+    box-shadow: none;
+}
+
+.eq {
+    background-color: rgb(184, 152, 94);
+
+}

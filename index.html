@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Task-3 </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" placeholder="0" id="result">
+        <div>
+            <button class="operators" onclick="clearResult()">AC</button>
+            <button class="operators" onclick="deleteResult()">DEL</button>
+            <button class="operators" onclick="insertResult('%')">%</button>
+            <button class="operators" onclick="insertvalue('/')">/</button>
+        </div>
+
+        <div>
+            <button onclick="insertvalue('7')">7</button>
+            <button onclick="insertvalue('8')">8</button>
+            <button onclick="insertvalue('9')">9</button>
+            <button class="operators" onclick="insertvalue('*')">*</button>
+        </div>
+
+        <div>
+            <button onclick="insertvalue('4')">4</button>
+            <button onclick="insertvalue('5')">5</button>
+            <button onclick="insertvalue('6')">6</button>
+            <button class="operators" onclick="insertvalue('-')">-</button>
+        </div>
+
+        <div>
+            <button onclick="insertvalue('1')">1</button>
+            <button onclick="insertvalue('2')">2</button>
+            <button onclick="insertvalue('3')">3</button>
+            <button class="operators" onclick="insertvalue('+')">+</button>
+        </div>
+        <div>
+            <button onclick="insertvalue('00')">00</button>
+            <button onclick="insertvalue('0')">0</button>
+            <button onclick="insertvalue('.')">.</button>
+            <button class="eq" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
